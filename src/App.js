@@ -16,9 +16,10 @@ class App extends React.Component{
     this.setState({data: retrievedData})
   }
   render(){
+    const {data} = this.state
     return (
       <div className= {styles.container}>
-         <Cards />
+         <Cards data={data} />
          <Chart />
          <CountryPicker />
       </div>
@@ -27,3 +28,4 @@ class App extends React.Component{
 }
 
 export default App; 
+ 
