@@ -13,7 +13,7 @@ export const getData = async () => {
             deaths: data.deaths,
             recovered: data.recovered,
             confirmed: data.confirmed,
-            dailySummary: data.dailySummary
+            infected: data.infected,
         }
         return neededData
         
