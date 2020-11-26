@@ -23,7 +23,7 @@ const Cards = ({data: {deaths,lastUpdate,confirmed,recovered}}) => {
                             />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toLocaleString()}</Typography>
-                        <Typography variant="body2">Cases</Typography>
+             
                     </CardContent>
                 </Grid>
 
@@ -39,7 +39,7 @@ const Cards = ({data: {deaths,lastUpdate,confirmed,recovered}}) => {
                             />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toLocaleString()}</Typography>
-                        <Typography variant="body2">Cases</Typography>
+                       
                     </CardContent>
                 </Grid>
 
@@ -55,7 +55,6 @@ const Cards = ({data: {deaths,lastUpdate,confirmed,recovered}}) => {
                             />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toLocaleString()}</Typography>
-                        <Typography variant="body2">Cases</Typography>
                     </CardContent>
                 </Grid>
             </Grid>

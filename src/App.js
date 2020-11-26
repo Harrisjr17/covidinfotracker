@@ -17,10 +17,12 @@ class App extends React.Component{
   }
   render(){
     const {data} = this.state
+
     return (
       <div className= {styles.container}>
+        <Chart />
          <Cards data={data} />
-         <Chart />
+         
          <CountryPicker />
       </div>
    );
